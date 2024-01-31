@@ -1,0 +1,7 @@
+2024-01-06T09:44:18+00:00 CRITICAL Uncaught Error: Call to a member function get_edit_url() on bool in /home/anhonlin/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:140
+Stack trace:
+#0 /home/anhonlin/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(160): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->get_conditions_conflicts_by_location('include/general', 'header', 442)
+#1 /home/anhonlin/public_html/wp-content/plugins/elementor-pro/core/app/modules/site-editor/data/endpoints/templates-conditions-conflicts.php(25): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->get_conditions_conflicts(442, 'include/general')
+#2 /home/anhonlin/public_html/wp-content/plugins/elementor/data/base/endpoint.php(158): ElementorPro\Core\App\Modules\SiteEditor\Data\Endpoints\Templates_Conditions_Conflicts->get_items(Object(WP_REST_Request))
+#3 /home/anhonlin/public_html/wp-content/plugins/elementor/data/base/endpoint.php(320): Elementor\Data in /home/anhonlin/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 140
+
